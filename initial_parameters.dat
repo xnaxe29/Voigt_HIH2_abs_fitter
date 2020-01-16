@@ -1,0 +1,143 @@
+#Name of the source file that needs to be analysed 
+#
+J2140-0321_uvb.spec
+#
+#Initial guess of the redshift of HI absorption 
+#
+2.339126
+#
+#Initial guess of the redshift of H2 absorption 
+#
+2.340055
+#
+#Initial guess of the redshift of the QSO 
+#
+2.49
+#
+#Resolution of the instrument in km/s
+#
+44.0
+#
+#Defining the boundary (in the units of wavelength) in which HI absorption exists (This will be used for continuum fitting)
+#
+#Start of the boundary
+3780.0
+#End of the boundary
+4189.0
+#
+#Defining the boundary (in the units of wavelength) in which H2 absorption exists (This will be used for continuum fitting). It is divided into two parts because continuum is much more absorbed in the blue end of the spectrum
+#
+#First Part
+#Start of the boundary
+3455.0
+#End of the boundary
+3756.0
+#
+#Second Part
+#Start of the boundary
+3204.0
+#End of the boundary
+3388.0
+#
+#Initial guess for the column density of HI (logscale)
+#
+21.67
+#
+#Initial guess for the column density of H2 (logscale), rotational level J=0
+#
+15.16
+#
+#Initial guess for the column density of H2 (logscale), rotational level J=1
+#
+15.62
+#
+#Initial guess for the column density of H2 (logscale), rotational level J=2
+#
+15.10
+#
+#Initial guess for the column density of H2 (logscale), rotational level J=3
+#
+15.22
+#
+#Initial guess for the column density of H2 (logscale), rotational level J=4
+#
+15.35
+#
+#Initial guess for the column density of H2 (logscale), rotational level J=5
+#
+14.90
+#
+#Initial guess for the column density of H2 (logscale), rotational level J=6
+#
+14.97
+#
+#Initial guess for the column density of H2 (logscale), rotational level J=7
+#
+14.88
+#
+#Initial guess for the column density of HD (logscale), rotational level J=0
+#
+17.34
+#
+#Initial guess for the column density of HD (logscale), rotational level J=1
+#
+16.27
+#
+#Initial guess for the column density of HD (logscale), rotational level J=2
+#
+15.97
+#
+#Doppler parameter for HI
+#
+30.0
+#
+#Doppler parameter for H2
+#
+10.0
+#
+#Would you like to fix the continuum for HI while fitting?: 1(Yes)/0(No)
+#
+0
+#
+#Would you like to fix the continuum for H2 while fitting?: 1(Yes)/0(No)
+#
+0
+#
+#Would you like to fix the redshift for H2?: 1(Yes)/0(No)
+#
+0
+#
+#Would you like to fix the column densities for H2, rotational level, J=0,1, and 2?: 1(Yes)/0(No)
+#
+0
+#
+#
+#Would you like to fix the column densities for H2, rotational level, J=5 to 7?: 1(Yes)/0(No)
+#
+0
+#
+#
+#Would you like to fix the column densities for HD, J=0,1, and 2?: 1(Yes)/0(No)
+#
+0
+#
+#Fitting window for HI (in km/s)
+#
+20000.0
+#
+#Fitting window for H2 (in km/s)
+#
+2000.0
+#
+#Fitting window for HD (in km/s)
+#
+2000.0
+#
+#Size of font of all text in the GUI window
+#
+8
+#
+#File from which the atomic data will be used
+#
+atomic_database_file.dat
+#
