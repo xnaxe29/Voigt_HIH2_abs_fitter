@@ -53,7 +53,7 @@ c = 2.99792e10
 
 
 
-initial_guesses = np.genfromtxt('initial_guess.dat', dtype=[('mystring','S30')], comments='#')
+initial_guesses = np.genfromtxt('initial_parameters.dat', dtype=[('mystring','S30')], comments='#')
 
 file_name1 = str(initial_guesses[0][0])
 z = float(initial_guesses[1][0])
