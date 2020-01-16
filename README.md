@@ -8,15 +8,25 @@ This is a simple python code (version - 2.7). Due to issues in running matplotli
 
 
 numpy
+
 scipy
+
 matplotlib
+
 pyastronomy
+
 sys
-from pathlib import Path
+
+pathlib
+
 os
+
 pyfits
+
 csv
+
 itertools
+
 tabulate
 
 Apart from this, the primary GUI code also imports a custom file - 'relevant_functions.py', which is given in the main folder of this repository. Other files are useful for making plots, but are not essential for running the code itself.
@@ -50,7 +60,6 @@ Some common warnings/errors one might encounter -
 
 1. 'x0' is infeasible - One might get this error if they are trying to fit the HI/H2 lines with estimated column density of the rotational levels, logN[atoms cm^-2] < 9.0. Please try to keep the values of all column densities, logN[atoms cm^-2] > 9.0
 
-2
 
 
 
