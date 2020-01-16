@@ -151,7 +151,7 @@ def smooth(y, box_pts):
 
 ##################################EXTRACTING_ATOMIC_DATA_LIST_FROM_ELEMENT##################################
 
-initial_guesses = np.genfromtxt('initial_guess.dat', dtype=[('mystring','S30')], comments='#')
+initial_guesses = np.genfromtxt('initial_parameters.dat', dtype=[('mystring','S30')], comments='#')
 atomic_database_file = str(initial_guesses[35][0])
 
 
